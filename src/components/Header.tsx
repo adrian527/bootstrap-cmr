@@ -15,7 +15,7 @@ const Header = () => {
     return <HeaderTheme>
         <Navbar expand="lg" className="bg-body-tertiary navbar-dark" fixed='top'>
             <Container>
-                <LinkContainer to='/'>
+                <LinkContainer to='/bootstrap-cmr'>
                     <Navbar.Brand onClick={scrollEvent}>
                         <img
                             alt=""

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bootstrap-cmr/static/css/main.b5de7a1a.css",
+    "main.js": "/bootstrap-cmr/static/js/main.f31fb769.js",
+    "index.html": "/bootstrap-cmr/index.html",
+    "main.b5de7a1a.css.map": "/bootstrap-cmr/static/css/main.b5de7a1a.css.map",
+    "main.f31fb769.js.map": "/bootstrap-cmr/static/js/main.f31fb769.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5de7a1a.css",
+    "static/js/main.f31fb769.js"
+  ]
+}

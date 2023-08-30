@@ -14,28 +14,29 @@ import Admin from './pages/Admin';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/bootstrap-cmr",
     element: <Main />,
     errorElement: <Error />,
+
     children: [
       {
-        path: '/',
+        path: '/bootstrap-cmr',
         element: <Home />,
       },
       {
-        path: '/contact',
+        path: '/bootstrap-cmr/contact',
         element: <Contact />
       },
       {
-        path: '/faqs',
+        path: '/bootstrap-cmr/faqs',
         element: <FAQs />
       },
       {
-        path: '/products/:productName',
+        path: '/bootstrap-cmr/products/:productName',
         element: <Products />
       },
       {
-        path: '/admin',
+        path: '/bootstrap-cmr/admin',
         element: <Admin />
       }
     ]

@@ -7,13 +7,13 @@ import { scrollEvent } from "../utils/scrollEvent";
 const Footer = () => {
     return <FooterContainer className="pt-3 mt-5">
         <Nav className="justify-content-center pb-2 mb-3">
-            <LinkContainer to='/'>
+            <LinkContainer to='/bootstrap-cmr'>
                 <Nav.Link onClick={scrollEvent}>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to='/faqs'>
+            <LinkContainer to='/bootstrap-cmr/faqs'>
                 <Nav.Link>FAQs</Nav.Link>
             </LinkContainer>
-            <LinkContainer to='/contact'>
+            <LinkContainer to='/bootstrap-cmr/contact'>
                 <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
         </Nav>

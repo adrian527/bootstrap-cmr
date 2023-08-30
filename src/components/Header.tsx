@@ -30,18 +30,18 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <LinkContainer to="/">
+                        <LinkContainer to="/bootstrap-cmr">
                             <Nav.Link onClick={scrollEvent}>Home</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/contact">
+                        <LinkContainer to="/bootstrap-cmr/contact">
                             <Nav.Link onClick={scrollEvent}>Contact</Nav.Link>
                         </LinkContainer>
                         <NavDropdown title="Products" id="collasible">
-                            {products.map(({ name }) => <LinkContainer key={name} to={`products/${name.replaceAll(' ', '-')}`}>
+                            {products.map(({ name }) => <LinkContainer key={name} to={`/bootstrap-cmr/products/${name.replaceAll(' ', '-')}`}>
                                 <NavDropdown.Item onClick={scrollEvent}>{name}</NavDropdown.Item>
                             </LinkContainer>)}
                         </NavDropdown>
-                        <LinkContainer to="/admin">
+                        <LinkContainer to="/bootstrap-cmr/admin">
                             <Nav.Link onClick={scrollEvent}>Admin</Nav.Link>
                         </LinkContainer>
                     </Nav>

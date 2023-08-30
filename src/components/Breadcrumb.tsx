@@ -4,7 +4,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 const BreadcrumbComponent = ({ currentPage, parameter }: { currentPage: string; parameter?: string }) => {
     return (
         <Breadcrumb className='mb-4'>
-            <LinkContainer to='/'>
+            <LinkContainer to='/bootstrap-cmr'>
                 <Breadcrumb.Item>Home</Breadcrumb.Item>
             </LinkContainer>
             <Breadcrumb.Item active>{currentPage}</Breadcrumb.Item>

@@ -28,7 +28,7 @@ const Products = () => {
                                 longer.
                             </Card.Text>
                             <div className='text-center'>
-                                <LinkContainer to={`/products/${name.replaceAll(' ', '-')}`}>
+                                <LinkContainer to={`/bootstrap-cmr/products/${name.replaceAll(' ', '-')}`}>
                                     <Button className="text-capitalize" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>See product</Button>
                                 </LinkContainer>
                             </div>

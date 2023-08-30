@@ -1,0 +1,1 @@
+export const scrollEvent = () => window.scrollTo(0, 0);
